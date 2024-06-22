@@ -1,6 +1,6 @@
 {
-  "homepage": "http://YL31.github.io/super-sticky-notes",
-  "name": "l12-build-your-big-component-help",
+  "homepage": "https://YL31.github.io/super-sticky-notes",
+  "name": "super-sticky-notes",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -16,11 +16,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
